@@ -1,4 +1,4 @@
-package sm
+package secm
 
 // Use this code snippet in your app.
 // If you need more information about configurations or implementing the sample code, visit the AWS docs:
@@ -13,7 +13,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/secretsmanager"
 )
 
-func upsert_certs() {
+func Certs() {
 	secretName := "mongodb-ca"
 	secretString := "test"
 	region := "eu-north-1"
