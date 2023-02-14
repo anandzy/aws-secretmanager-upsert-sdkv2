@@ -1,4 +1,4 @@
-module github.com/anandzy/aws-secrets-manager-upsert-sdkv2
+module github.com/anandzy/aws-secretmanager-upsert-sdkv2
 
 require (
 
